@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    android:background="@drawable/mountain"
+    tools:context="com.example.gustiv.alamsemesta.Login">
+
+
+
+    <TextView
+        android:id="@+id/login_teks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN PLEASE"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="@color/colorOrange"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        />
+
+    <EditText
+        android:id="@+id/edituser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama User"
+        android:focusable="true"
+        android:textColorHint="@color/colorGrey"
+        android:layout_marginTop="120dp"
+        />
+
+    <EditText
+        android:id="@+id/editpass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kata Sandi"
+        android:inputType="textPassword"
+        android:focusable="true"
+        android:textColorHint="@color/colorGrey"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/edituser"
+        />
+
+    <TextView
+        android:id="@+id/attemps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ATTEMPS LOGIN"
+        android:textColor="@color/colorGreen"
+        android:textSize="24sp"
+        android:paddingLeft="5dp"
+        android:layout_above="@+id/login_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="93dp" />
+
+    <TextView
+        android:id="@+id/attleft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="@color/colorRed"
+        android:textSize="24sp"
+        android:layout_toRightOf="@id/login_teks"
+        android:layout_toEndOf="@id/login_teks"
+        android:layout_alignTop="@id/attemps"
+        android:layout_alignBottom="@id/attemps"
+        />
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_alignParentBottom="true"
+        android:onClick="login"
+        android:textColor="@color/colorWhite"
+        android:layout_toLeftOf="@id/login_teks"
+        android:layout_toStartOf="@id/login_teks"
+        android:background="@color/colorPrimaryDark"
+        />
+
+    <Button
+        android:id="@+id/clear_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLEAR"
+        android:textColor="@color/colorWhite"
+        android:layout_alignParentBottom="true"
+        android:onClick="clear"
+        android:layout_toRightOf="@id/login_teks"
+        android:layout_toEndOf="@id/login_teks"
+        android:background="@color/colorPrimaryDark"
+        />
+
+</RelativeLayout>

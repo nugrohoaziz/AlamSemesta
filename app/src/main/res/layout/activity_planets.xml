@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.gustiv.alamsemesta.Planets"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal"
+        android:background="@color/colorBlack"
+        android:weightSum="1"
+        android:layout_weight="0.19">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/sun1"/>
+
+        <TextView
+            android:id="@+id/texthesun"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.51"
+            android:gravity="center"
+            android:text="SUN"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.12">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mercuri1" />
+
+        <TextView
+            android:id="@+id/textthemercury"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.29"
+            android:gravity="center"
+            android:text="MERCURY"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.23">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/venn" />
+
+        <TextView
+            android:id="@+id/textthevenus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.43"
+            android:gravity="center"
+            android:text="VENUS"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.21">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/earth" />
+
+        <TextView
+            android:id="@+id/texttheearth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.43"
+            android:gravity="center"
+            android:text="EARTH"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.08">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/mars" />
+
+        <TextView
+            android:id="@+id/textthemars"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.46"
+            android:gravity="center"
+            android:text="MARS"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.15">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/jupiter1" />
+
+        <TextView
+            android:id="@+id/textthejupiter"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="JUPITER"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp"
+            android:layout_weight="0.37" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_weight="0.12"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/satunus13" />
+
+        <TextView
+            android:id="@+id/textthesaturnus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.23"
+            android:gravity="center"
+            android:text="SATURNUS"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_weight="0.03"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/uranus" />
+
+        <TextView
+            android:id="@+id/texttheuranus"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.37"
+            android:gravity="center"
+            android:text="URANUS"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/colorBlack"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="71dp"
+            android:layout_height="40dp"
+            android:src="@drawable/neptunee1" />
+
+        <TextView
+            android:id="@+id/texttheneptune"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.31"
+            android:gravity="center"
+            android:text="NEPTUNE"
+            android:textColor="@color/colorBlue"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

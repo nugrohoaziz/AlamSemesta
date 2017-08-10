@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluee"
+    tools:context="com.example.gustiv.alamsemesta.Home">
+
+
+    <TextView
+        android:id="@+id/autoCompleteTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:text="Belajar Alam Semesta"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/planett"
+        android:src="@drawable/planetss"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginStart="36dp"
+        android:layout_below="@+id/autoCompleteTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/planett"
+        android:layout_alignRight="@+id/planett"
+        android:text="PLANETS"
+        android:onClick="planets"
+        android:layout_alignEnd="@+id/planett"
+        android:layout_alignLeft="@+id/planett"
+        android:layout_alignStart="@+id/planett"
+        android:id="@+id/button2" />
+
+    <ImageView
+        android:id="@+id/material_pelanet"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/materialss"
+        android:layout_alignTop="@+id/planett"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="27dp"
+        android:layout_marginEnd="27dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MATERIAL ALAM"
+        android:layout_below="@+id/material_pelanet"
+        android:layout_alignLeft="@+id/material_pelanet"
+        android:layout_alignStart="@+id/material_pelanet"
+        android:layout_alignRight="@+id/material_pelanet"
+        android:layout_alignEnd="@+id/material_pelanet"
+        android:id="@+id/button" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="59dp"
+        android:src="@drawable/galaxyss"
+        android:layout_below="@+id/button"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2"
+        android:id="@+id/imageView2" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView2"
+        android:text="GALAXY"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2"
+        android:layout_alignRight="@+id/imageView2"
+        android:layout_alignEnd="@+id/imageView2" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/storyss"
+        android:id="@+id/imageView3"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView3"
+        android:text="STORY"
+        android:layout_alignLeft="@+id/imageView3"
+        android:layout_alignStart="@+id/imageView3"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_alignEnd="@+id/imageView3" />
+
+</RelativeLayout>
